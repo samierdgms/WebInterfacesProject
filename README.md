@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+Today, I’d like to introduce you to my project, which is an interactive comment platform. This platform allows users to interact socially by posting comments, liking them, and even updating their profile information. Let me walk you through its key features:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Backoffice: This project includes a management panel, where administrative actions can be performed, such as CRUD operations on users. For example, administrators have the ability to delete users directly from the backoffice.
 
-## Available Scripts
+Dashboard: The dashboard provides a personalized space where users can update their profile pictures and add new comments to the platform.
 
-In the project directory, you can run:
+Frontoffice: In the frontoffice, all user comments are displayed in an organized way. Additionally, there’s a search box that allows filtering comments based on usernames, making it easy to find specific interactions. Each comment also includes a like button, so users can engage with posts they find interesting or meaningful.
 
-### `npm start`
+API Integration: All data is fetched and updated dynamically using a REST API, specifically Sheety API in this case. This ensures seamless and efficient data handling for both users and administrators.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: The platform is fully responsive, meaning it works perfectly on both desktop and mobile devices. This ensures a smooth user experience regardless of the device being used.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Purpose: The goal of this platform is to create a social space for interaction while also providing tools for effective data management through an admin panel. It serves as a practical learning project for implementing key web development concepts such as CRUD operations, API integration, and user interaction.
