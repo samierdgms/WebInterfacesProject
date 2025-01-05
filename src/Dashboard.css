@@ -1,0 +1,168 @@
+/* Genel Konteyner */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Profil Başlığı */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.username {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+
+/* Görsel Düzenleme Alanı */
+.image-edit {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #3b79bf;
+}
+
+.cancel-button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: #c0392b;
+}
+
+/* Yorum Bölümü */
+.comments-section {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.comments-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.comment-button {
+    padding: 12px 25px;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.comment-button:hover {
+    background-color: #3b79bf;
+}
+
+.comments-list {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.comment {
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-timestamp {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Hata Mesajı */
+.error {
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

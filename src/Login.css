@@ -1,0 +1,106 @@
+/* login.css */
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    width: 320px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+.input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+}
+
+.button,
+.createAccountButton,
+.backButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #3a78c0;
+    transform: scale(1.02);
+}
+
+.createAccountButton {
+    background-color: #50c878;
+    color: #ffffff;
+}
+
+.createAccountButton:hover {
+    background-color: #44b06a;
+    transform: scale(1.02);
+}
+
+.backButton {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.backButton:hover {
+    background-color: #bbbbbb;
+    transform: scale(1.02);
+}
+
+.error,
+.success {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+.success {
+    color: #27ae60;
+}
